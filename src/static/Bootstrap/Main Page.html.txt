@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <script source = "js/bootstrap.js"></script>
+    <script source = "custom.js"></script> -->
+    <nav class="navbar navbar-expand-lg py-4 shadow-sm">
+        <div data-nd-container="top-left" id="002">
+          <a href="https://www.homeny.org/" class="navbar-brand">
+             <img src="js/HOME_logo_RED.png" width="150"  class="Header-branding-logo">
+          </a>
+            <button class='btn btn-success signinbtn1'>
+                Profile
+            </button>
+            <button class='btn btn-success pull-right signinbtn'>
+                Login
+            </button>
+        </div>
+    </nav>  
+    <br><br>
+    <div class="d-flex" justify-content-around > 
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle dropdown" type="button"  data-bs-toggle="dropdown" id="dropdownMenuButton1" aria-expanded="false" > Tags Dropdown
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Owner</a></li>
+              <li><a class="dropdown-item" href="#">Tenant</a></li>
+            </ul>
+          </div>
+        <ul></ul>
+        <div class= 'row row-grid' >
+            <div class = "col" >
+                <div class="card" style="width: 20rem">
+                    <!-- <h5 class="card-title">Video1 Title</h5> -->
+                    <div class="card-header">
+                        Video-1 Title
+                      </div>
+                        <iframe src="https://www.youtube.com/embed/pWahNIMRxR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">     
+                            <p class="card-text">Video Discription.........................</p>
+                            <a href="#" class="btn btn-primary">Take Quiz Now</a>
+                            <a href="#" class="btn btn-primary">Brochure</a>
+                            <br>
+                            <div class="card-footer">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class = "col" >
+                <div class="card" style="width: 20rem">
+                    <!-- <h5 class="card-title">Video1 Title</h5> -->
+                    <div class="card-header">
+                        Video-1 Title
+                      </div>
+                        <iframe src="https://www.youtube.com/embed/pWahNIMRxR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">     
+                            <p class="card-text">Video Discription.........................</p>
+                            <a href="#" class="btn btn-primary">Take Quiz Now</a>
+                            <a href="#" class="btn btn-primary">Brochure</a>
+                            <br>
+                            <div class="card-footer">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class = "col" >
+                <div class="card" style="width: 20rem">
+                    <!-- <h5 class="card-title">Video1 Title</h5> -->
+                    <div class="card-header">
+                        Video-1 Title
+                      </div>
+                        <iframe src="https://www.youtube.com/embed/pWahNIMRxR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">     
+                            <p class="card-text">Video Discription.........................</p>
+                            <a href="#" class="btn btn-primary">Take Quiz Now</a>
+                            <a href="#" class="btn btn-primary">Brochure</a>
+                            <br>
+                            <div class="card-footer">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <ul></ul>
+            <div class = "col" >
+                <div class="card" style="width: 20rem">
+                    <!-- <h5 class="card-title">Video1 Title</h5> -->
+                    <div class="card-header">
+                        Video-1 Title
+                      </div>
+                        <iframe src="https://www.youtube.com/embed/pWahNIMRxR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">     
+                            <p class="card-text">Video Discription.........................</p>
+                            <a href="#" class="btn btn-primary">Take Quiz Now</a>
+                            <a href="#" class="btn btn-primary">Brochure</a>
+                            <br>
+                            <div class="card-footer">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class = "col" >
+                <div class="card" style="width: 20rem">
+                    <!-- <h5 class="card-title">Video1 Title</h5> -->
+                    <div class="card-header">
+                        Video-1 Title
+                      </div>
+                        <iframe src="https://www.youtube.com/embed/pWahNIMRxR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">     
+                            <p class="card-text">Video Discription.........................</p>
+                            <a href="#" class="btn btn-primary">Take Quiz Now</a>
+                            <a href="#" class="btn btn-primary">Brochure</a>
+                            <br>
+                            <div class="card-footer">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class = "col" >
+                <div class="card" style="width: 20rem">
+                    <!-- <h5 class="card-title">Video1 Title</h5> -->
+                    <div class="card-header">
+                        Video-1 Title
+                      </div>
+                        <iframe src="https://www.youtube.com/embed/pWahNIMRxR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">     
+                            <p class="card-text">Video Discription.........................</p>
+                            <a href="#" class="btn btn-primary">Take Quiz Now</a>
+                            <a href="#" class="btn btn-primary">Brochure</a>
+                            <br>
+                            <div class="card-footer">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+    </html>
+               
