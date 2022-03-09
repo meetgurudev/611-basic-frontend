@@ -88,7 +88,6 @@ def login_page():
             print(form.username.data)
             user = User.query.filter_by(user_username=form.username.data).first()
             if user:
-                print("bruh")
                 if user.user_password == form.password.data:
                     login_user(user)
                     return render_template('login_page.html', login_output = "you are now signed in as" + str(form.username), form=form)
