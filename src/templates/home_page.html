@@ -2,6 +2,10 @@
     <body>
         <h1>This is the home page</h1>
 
+        {% if current_user.is_authenticated %}
+        <h2>Welcome {{ username }}</h2>
+        {% endif %}
+
         <form method="post" action="/login">
             <input type="submit" value="Press this to go to login page" name="login_page_redirect"/>
         </form>
@@ -33,6 +37,14 @@
         <form method="post" action="/video_analytics">
             <input type="submit" value="Press this to go to video analytics page" name="video_analytics_page_redirect"/>
         </form>
+
+        {% if current_user.is_authenticated %}
+        <form method="post" action="/">
+            <input type="submit" value="Press this button to logout" name="logout_user"/>
+        </form>
+        {% endif %}
+
+
         
         
         </body>
